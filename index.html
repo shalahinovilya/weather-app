@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="weather">
+    <div class="location">
+        <input name="location" id="location">
+        <button class="submit__location"><i class="fa fa-search"></i></button>
+    </div>
+    <div hidden class="error__block">city not found</div>
+    <div class="weather__block">
+        <div class="date__and__max_temp">
+            <div class="date"></div>
+            <div class="max__temp"></div>
+        </div>
+        <div hidden class="max__temp__label">max temp</div>
+        <div class="weather__content">
+            <div class="img__block">
+                <img hidden class="weather__img">
+            </div>
+            <div class="temp__block">
+                <div class="current__temp"></div>
+            </div>
+        </div>
+        <div class="min__temp"></div>
+        <div hidden class="min__temp__label">min temp</div>
+    </div>
+</div>
+<!--<p>-->
+<!--    Your location is <span id="latitude">0.00</span>°-->
+<!--    latitude by <span id="longitude">0.00</span>° longitude.-->
+<!--</p>-->
+<!--<button id="get-location">-->
+<!--    Get My Location-->
+<!--</button>-->
+<script src="script.js"></script>
+</body>
+</html>
